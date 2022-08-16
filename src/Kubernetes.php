@@ -1,5 +1,5 @@
 <?php
-namespace booosta\kubernetes;o
+namespace booosta\kubernetes;
 
 use RenokiCo\PhpK8s\KubernetesCluster;
 
