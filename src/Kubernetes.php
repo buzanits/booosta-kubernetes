@@ -28,12 +28,12 @@ class Kubernetes extends \booosta\base\Module
   public function apply($code)
   {
     $yaml = $cluster->fromYaml($code);
-    $yaml->createOrUpdate();
+    return $yaml->createOrUpdate();
   }
 
   public function delete($code)
   {
     $yaml = $cluster->fromYaml($code);
-    $yaml->delete()
+    return $yaml->delete();
   }
 }
