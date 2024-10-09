@@ -18,6 +18,6 @@
     "require": {
         "php": ">=8.0.0",
         "renoki-co/php-k8s": "^3.7",
-        "booosta/base": "dev-master"
+        "booosta/base": "^4.0"
     }
 }
